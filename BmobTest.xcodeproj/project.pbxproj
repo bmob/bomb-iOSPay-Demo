@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B9194071CA0D64600F75BFE /* BmobPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9194061CA0D64600F75BFE /* BmobPay.framework */; };
+		1BE6F3131C9F9BA900A15A19 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1BE6F3111C9F9BA900A15A19 /* AlipaySDK.bundle */; };
+		1BE6F3141C9F9BA900A15A19 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE6F3121C9F9BA900A15A19 /* AlipaySDK.framework */; };
+		1BE6F32F1C9F9D0200A15A19 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE6F31F1C9F9D0200A15A19 /* CoreMotion.framework */; };
+		1BE6F3461C9FA14200A15A19 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE6F3451C9FA14200A15A19 /* libz.tbd */; };
+		1BE6F3471C9FA15000A15A19 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE6F31E1C9F9D0200A15A19 /* libc++.tbd */; };
+		1BE6F3481C9FA18400A15A19 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE6F3291C9F9D0200A15A19 /* CoreTelephony.framework */; };
+		DADA1F231ACABFD10041AC40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DADA1F221ACABFD10041AC40 /* main.m */; };
+		DADA1F261ACABFD10041AC40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DADA1F251ACABFD10041AC40 /* AppDelegate.m */; };
+		DADA1F2E1ACABFD10041AC40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADA1F2D1ACABFD10041AC40 /* Images.xcassets */; };
+		DADA1F311ACABFD10041AC40 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DADA1F2F1ACABFD10041AC40 /* LaunchScreen.xib */; };
+		DADA1F3D1ACABFD10041AC40 /* BmobTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DADA1F3C1ACABFD10041AC40 /* BmobTestTests.m */; };
+		DADA1FB51ACADFFC0041AC40 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADA1FB41ACADFFC0041AC40 /* CoreLocation.framework */; };
+		DADA1FC11ACAE03F0041AC40 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADA1FC01ACAE03F0041AC40 /* SystemConfiguration.framework */; };
+		DADA202C1ACBC53E0041AC40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DADA202B1ACBC53E0041AC40 /* ViewController.m */; };
+		DADA202E1ACBC54F0041AC40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADA202D1ACBC54F0041AC40 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DADA1F371ACABFD10041AC40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADA1F151ACABFD10041AC40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DADA1F1C1ACABFD10041AC40;
+			remoteInfo = BmobTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DADA1F4A1ACAC23E0041AC40 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B9194061CA0D64600F75BFE /* BmobPay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BmobPay.framework; sourceTree = "<group>"; };
+		1BE6F3111C9F9BA900A15A19 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		1BE6F3121C9F9BA900A15A19 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		1BE6F31E1C9F9D0200A15A19 /* libc++.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		1BE6F31F1C9F9D0200A15A19 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		1BE6F3261C9F9D0200A15A19 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1BE6F3291C9F9D0200A15A19 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		1BE6F3451C9FA14200A15A19 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		DADA1F1D1ACABFD10041AC40 /* BmobTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BmobTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADA1F211ACABFD10041AC40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADA1F221ACABFD10041AC40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DADA1F241ACABFD10041AC40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DADA1F251ACABFD10041AC40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DADA1F2D1ACABFD10041AC40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DADA1F301ACABFD10041AC40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DADA1F361ACABFD10041AC40 /* BmobTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BmobTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADA1F3B1ACABFD10041AC40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADA1F3C1ACABFD10041AC40 /* BmobTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BmobTestTests.m; sourceTree = "<group>"; };
+		DADA1FB41ACADFFC0041AC40 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DADA1FC01ACAE03F0041AC40 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DADA202B1ACBC53E0041AC40 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DADA202D1ACBC54F0041AC40 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DADA202F1ACBC56F0041AC40 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DADA1F1A1ACABFD10041AC40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE6F3481C9FA18400A15A19 /* CoreTelephony.framework in Frameworks */,
+				1BE6F3471C9FA15000A15A19 /* libc++.tbd in Frameworks */,
+				1BE6F3461C9FA14200A15A19 /* libz.tbd in Frameworks */,
+				DADA1FC11ACAE03F0041AC40 /* SystemConfiguration.framework in Frameworks */,
+				1BE6F3141C9F9BA900A15A19 /* AlipaySDK.framework in Frameworks */,
+				DADA1FB51ACADFFC0041AC40 /* CoreLocation.framework in Frameworks */,
+				1BE6F32F1C9F9D0200A15A19 /* CoreMotion.framework in Frameworks */,
+				1B9194071CA0D64600F75BFE /* BmobPay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADA1F331ACABFD10041AC40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BE6F30E1C9F9B2100A15A19 /* new */ = {
+			isa = PBXGroup;
+			children = (
+				1BE6F3451C9FA14200A15A19 /* libz.tbd */,
+				1BE6F31E1C9F9D0200A15A19 /* libc++.tbd */,
+				1BE6F31F1C9F9D0200A15A19 /* CoreMotion.framework */,
+				1BE6F3261C9F9D0200A15A19 /* QuartzCore.framework */,
+				1BE6F3291C9F9D0200A15A19 /* CoreTelephony.framework */,
+			);
+			name = new;
+			sourceTree = "<group>";
+		};
+		DADA1F141ACABFD10041AC40 = {
+			isa = PBXGroup;
+			children = (
+				DADA1F1F1ACABFD10041AC40 /* BmobTest */,
+				DADA1F391ACABFD10041AC40 /* BmobTestTests */,
+				DADA1F1E1ACABFD10041AC40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DADA1F1E1ACABFD10041AC40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DADA1F1D1ACABFD10041AC40 /* BmobTest.app */,
+				DADA1F361ACABFD10041AC40 /* BmobTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DADA1F1F1ACABFD10041AC40 /* BmobTest */ = {
+			isa = PBXGroup;
+			children = (
+				DADA202F1ACBC56F0041AC40 /* ViewController.h */,
+				DADA1F241ACABFD10041AC40 /* AppDelegate.h */,
+				DADA1F251ACABFD10041AC40 /* AppDelegate.m */,
+				DADA202B1ACBC53E0041AC40 /* ViewController.m */,
+				DADA1F2D1ACABFD10041AC40 /* Images.xcassets */,
+				DADA1F2F1ACABFD10041AC40 /* LaunchScreen.xib */,
+				DADA202D1ACBC54F0041AC40 /* Main.storyboard */,
+				DADA1F201ACABFD10041AC40 /* Supporting Files */,
+			);
+			path = BmobTest;
+			sourceTree = "<group>";
+		};
+		DADA1F201ACABFD10041AC40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B9194061CA0D64600F75BFE /* BmobPay.framework */,
+				1BE6F3111C9F9BA900A15A19 /* AlipaySDK.bundle */,
+				1BE6F3121C9F9BA900A15A19 /* AlipaySDK.framework */,
+				1BE6F30E1C9F9B2100A15A19 /* new */,
+				DADA1FC01ACAE03F0041AC40 /* SystemConfiguration.framework */,
+				DADA1FB41ACADFFC0041AC40 /* CoreLocation.framework */,
+				DADA1F211ACABFD10041AC40 /* Info.plist */,
+				DADA1F221ACABFD10041AC40 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DADA1F391ACABFD10041AC40 /* BmobTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				DADA1F3C1ACABFD10041AC40 /* BmobTestTests.m */,
+				DADA1F3A1ACABFD10041AC40 /* Supporting Files */,
+			);
+			path = BmobTestTests;
+			sourceTree = "<group>";
+		};
+		DADA1F3A1ACABFD10041AC40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DADA1F3B1ACABFD10041AC40 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DADA1F1C1ACABFD10041AC40 /* BmobTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADA1F401ACABFD10041AC40 /* Build configuration list for PBXNativeTarget "BmobTest" */;
+			buildPhases = (
+				DADA1F191ACABFD10041AC40 /* Sources */,
+				DADA1F1A1ACABFD10041AC40 /* Frameworks */,
+				DADA1F1B1ACABFD10041AC40 /* Resources */,
+				DADA1F4A1ACAC23E0041AC40 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BmobTest;
+			productName = BmobTest;
+			productReference = DADA1F1D1ACABFD10041AC40 /* BmobTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DADA1F351ACABFD10041AC40 /* BmobTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADA1F431ACABFD10041AC40 /* Build configuration list for PBXNativeTarget "BmobTestTests" */;
+			buildPhases = (
+				DADA1F321ACABFD10041AC40 /* Sources */,
+				DADA1F331ACABFD10041AC40 /* Frameworks */,
+				DADA1F341ACABFD10041AC40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DADA1F381ACABFD10041AC40 /* PBXTargetDependency */,
+			);
+			name = BmobTestTests;
+			productName = BmobTestTests;
+			productReference = DADA1F361ACABFD10041AC40 /* BmobTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DADA1F151ACABFD10041AC40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Bmob;
+				TargetAttributes = {
+					DADA1F1C1ACABFD10041AC40 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					DADA1F351ACABFD10041AC40 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = DADA1F1C1ACABFD10041AC40;
+					};
+				};
+			};
+			buildConfigurationList = DADA1F181ACABFD10041AC40 /* Build configuration list for PBXProject "BmobTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DADA1F141ACABFD10041AC40;
+			productRefGroup = DADA1F1E1ACABFD10041AC40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DADA1F1C1ACABFD10041AC40 /* BmobTest */,
+				DADA1F351ACABFD10041AC40 /* BmobTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DADA1F1B1ACABFD10041AC40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADA1F311ACABFD10041AC40 /* LaunchScreen.xib in Resources */,
+				DADA1F2E1ACABFD10041AC40 /* Images.xcassets in Resources */,
+				1BE6F3131C9F9BA900A15A19 /* AlipaySDK.bundle in Resources */,
+				DADA202E1ACBC54F0041AC40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADA1F341ACABFD10041AC40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DADA1F191ACABFD10041AC40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADA202C1ACBC53E0041AC40 /* ViewController.m in Sources */,
+				DADA1F261ACABFD10041AC40 /* AppDelegate.m in Sources */,
+				DADA1F231ACABFD10041AC40 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADA1F321ACABFD10041AC40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADA1F3D1ACABFD10041AC40 /* BmobTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DADA1F381ACABFD10041AC40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DADA1F1C1ACABFD10041AC40 /* BmobTest */;
+			targetProxy = DADA1F371ACABFD10041AC40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DADA1F2F1ACABFD10041AC40 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADA1F301ACABFD10041AC40 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DADA1F3E1ACABFD10041AC40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DADA1F3F1ACABFD10041AC40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DADA1F411ACABFD10041AC40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BmobTest",
+					"$(PROJECT_DIR)/BmobTest/AlipaySDK.bundle",
+				);
+				INFOPLIST_FILE = BmobTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BmobTest",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DADA1F421ACABFD10041AC40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BmobTest",
+					"$(PROJECT_DIR)/BmobTest/AlipaySDK.bundle",
+				);
+				INFOPLIST_FILE = BmobTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BmobTest",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DADA1F441ACABFD10041AC40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BmobTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BmobTest.app/BmobTest";
+			};
+			name = Debug;
+		};
+		DADA1F451ACABFD10041AC40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BmobTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BmobTest.app/BmobTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DADA1F181ACABFD10041AC40 /* Build configuration list for PBXProject "BmobTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADA1F3E1ACABFD10041AC40 /* Debug */,
+				DADA1F3F1ACABFD10041AC40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADA1F401ACABFD10041AC40 /* Build configuration list for PBXNativeTarget "BmobTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADA1F411ACABFD10041AC40 /* Debug */,
+				DADA1F421ACABFD10041AC40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADA1F431ACABFD10041AC40 /* Build configuration list for PBXNativeTarget "BmobTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADA1F441ACABFD10041AC40 /* Debug */,
+				DADA1F451ACABFD10041AC40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DADA1F151ACABFD10041AC40 /* Project object */;
+}
