@@ -20,7 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
 # warning 替换你的key
-    NSString *key = @"";
+    NSString *key = @"2c2776d8c9e0db880807e673d2add486";
     [BmobPaySDK registerWithAppKey:key];
     return YES;
 }

@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/BmobPayConfig.h</key>
 		<data>
-		BI5WN3OiHKLlvIlbqJ0SOhEDeYk=
+		7ja933Nf2E9OkW0CoF568/SWliY=
 		</data>
 		<key>Headers/BmobPaySDK.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Z4y8vK6RE3yflnan37nsYlLCg30=
+		OIycp2lNMpjjVW107H9zJvfJ2TI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -28,21 +28,49 @@
 	<key>files2</key>
 	<dict>
 		<key>Headers/BmobPay.h</key>
-		<data>
-		6FfCoyyHoeJGlM2FTw6+vgVva1k=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			6FfCoyyHoeJGlM2FTw6+vgVva1k=
+			</data>
+			<key>hash2</key>
+			<data>
+			oMdlwX08DYwPcCQlCbaFmZ/MgzeLQm7rMZQIttyYXnk=
+			</data>
+		</dict>
 		<key>Headers/BmobPayConfig.h</key>
-		<data>
-		BI5WN3OiHKLlvIlbqJ0SOhEDeYk=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			7ja933Nf2E9OkW0CoF568/SWliY=
+			</data>
+			<key>hash2</key>
+			<data>
+			5Oy/youQokEM78sHviYIuIkw1rAWTs1EgEStlNM8kTY=
+			</data>
+		</dict>
 		<key>Headers/BmobPaySDK.h</key>
-		<data>
-		HDThE49+FLQVsITQEaBZ0Li4V8w=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			HDThE49+FLQVsITQEaBZ0Li4V8w=
+			</data>
+			<key>hash2</key>
+			<data>
+			D0bUCtjXxHX/6lN6bIXMXKCiHg+fvNwb2iKMINYdvAA=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
-		<data>
-		sEtHLa+R3gmRILcMdkTr9AR+J0M=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			sEtHLa+R3gmRILcMdkTr9AR+J0M=
+			</data>
+			<key>hash2</key>
+			<data>
+			YZXfisZn90QSyad6Q+NS156kh6CN0Aa3dhINsrXYAqM=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>

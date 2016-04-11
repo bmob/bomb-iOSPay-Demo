@@ -17,6 +17,6 @@ typedef void (^BmobQuerySMSCodeStateResultBlock)(NSDictionary *dic,NSError *erro
 
 UIKIT_STATIC_INLINE NSString* BmobPayVersion()
 {
-    return @"BmobPay v1.0.5";
+    return @"BmobPay v1.0.6";
 }
 #endif
